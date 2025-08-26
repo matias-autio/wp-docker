@@ -1,2 +1,22 @@
+# WordPress content - ignore everything except .gitkeep
+wp-content/plugins/*
+!wp-content/plugins/.gitkeep
+
+wp-content/themes/*
+!wp-content/themes/.gitkeep
+
+wp-content/uploads/*
+!wp-content/uploads/.gitkeep
+
+# Composer
+vendor/
+composer.lock
+
+# Environment
 .env
+
+# Misc files
 .DS_Store
+
+# If you want to include a custom theme, add exceptions like:
+# !wp-content/themes/my-custom-theme/
