@@ -1,0 +1,5 @@
+{
+  "build": {
+    "dockerCompose": "docker-compose.production.yml"
+  }
+}
